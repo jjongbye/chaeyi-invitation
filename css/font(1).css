@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Ownglyph_ryurue';
+    src: url('/resources/assets/main-cover-fonts/1/Ownglyph_ryurue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JostLight';
+    src: url('/resources/assets/main-cover-fonts/2/Jost-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dongdong';
+    src: url('/resources/assets/main-cover-fonts/6/Cafe24Dongdong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ragam';
+    src: url('/resources/assets/main-cover-fonts/10/Ragam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Strong';
+    src: url('/resources/assets/main-cover-fonts/10/Strong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJamsil2Light';
+    src: url('/resources/assets/main-cover-fonts/10/TheJamsil2Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'VeronicaHamish';
+    src: url('/resources/assets/main-cover-fonts/10/VeronicaHamish.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

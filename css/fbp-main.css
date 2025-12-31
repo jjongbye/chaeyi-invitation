@@ -1,0 +1,134 @@
+h1,h2,h3,h4,h5,h6,p,span,strong,b,a{letter-spacing: -0.4px;}
+@font-face {
+	font-family: 'Pretendard';
+	src: local('Pretendard Regular'), url(/resources/assets/font/Pretendard-Regular.woff2) format('woff2'), url(/resources/assets/font/Pretendard-Regular.woff2) format('woff');
+}
+
+
+a{text-decoration: none;}
+*{box-sizing: border-box;margin: 0;padding: 0;}
+ul,ol,li{margin: 0;padding: 0;list-style: none;}
+button{cursor: pointer; font-family: 'Pretendard';background-color: transparent;border: 0;display: flex;align-items: center;justify-content: center;}
+body{height: 100%; 	font-family: 'Pretendard';-ms-overflow-style: none;}
+
+
+
+html, body {
+	overscroll-behavior:none; 
+    background-color: #fff;
+}
+
+html{height: 100%;scrollbar-width: none;}
+section{overflow-y: scroll; max-width: 540px;width: 100%;margin: 0 auto;position: relative;}
+
+.p15{padding: 15px;}
+.p30{padding: 30px;}
+.p45{padding: 45px;}
+.p60{padding: 60px;}
+
+.pt15{padding-top: 15px;}
+.pt30{padding-top: 30px;}
+.pt45{padding-top: 45px;}
+.pt60{padding-top: 60px;}
+
+.pb15{padding-bottom: 15px;}
+.pb30{padding-bottom: 30px;}
+.pb45{padding-bottom: 45px;}
+.pb60{padding-bottom: 60px;}
+
+.pl15{padding-left: 15px;}
+.pl30{padding-left: 30px;}
+.pl45{padding-left: 45px;}
+.pl60{padding-left: 60px;}
+
+.pr15{padding-right: 15px;}
+.pr30{padding-right: 30px;}
+.pr45{padding-right: 45px;}
+.pr60{padding-right: 60px;}
+
+.mt15{margin-top: 15px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mt45{margin-top: 45px;}
+.mt60{margin-top: 60px;}
+
+.mb15{margin-bottom: 15px;}
+.mb30{margin-bottom: 30px;}
+.mb45{margin-bottom: 45px;}
+.mb60{margin-bottom: 60px;}
+
+.ml15{margin-left: 15px;}
+.ml30{margin-left: 30px;}
+.ml45{margin-left: 45px;}
+.ml60{margin-left: 60px;}
+
+.mr0{margin-right: 0 !important;}
+.mr10{margin-right: 10px;}
+.mr15{margin-right: 15px;}
+.mr30{margin-right: 30px;}
+.mr45{margin-right: 45px;}
+.mr60{margin-right: 60px;}
+
+
+
+
+/* input */
+input{font-size: 16px;height: 55px !important; color: #000; height: auto;width: 100%;outline: none;border: 1px solid #c9caca;border-radius: 4px;padding: 15px;font-family: 'Pretendard';}
+input:focus{border-color: #000;color: #000;}
+input:focus::placeholder{color:transparent;}/* placeholder 감추기 Chrome, Firefox, Opera, Safari 10.1+ */
+input:focus::-ms-input-placeholder{color:transparent;}/* placeholder 감추기 Edge */
+input::placeholder{color: #666464;opacity: 0.7;}
+input[type=date]{color: #000; height: auto;width: 100%;outline: none;border: 1px solid #c9caca !important;border-radius: 4px;padding: 10px;font-family: 'Pretendard';}
+
+
+textarea::placeholder{color: #666464;opacity: 0.7;}
+textarea{resize: none;outline: none;}
+
+textarea:focus{border: 1.5px solid #000;}
+
+
+/* 스크롤기능은 되면서 스크롤바 안보이게 */
+.main{
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+section {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.main::-webkit-scrollbar {
+    display: none;
+}
+section::-webkit-scrollbar {
+    display: none; 
+}
+
+
+/*  */
+/* .upani{border: 1px solid;transform: translateY(50px);opacity: 0;
+    transition: transform 1.5s ease, opacity 0.5s ease;}
+.upani.up{border: 1px solid;transform: translateY(0) !important;opacity: 1 !important;}
+
+ */
+ /* .sample-inner{border: 1px solid;} */
+ .h100{height: 100%;overflow-y: scroll;}
+
+
+.fz14{font-size: 90%!important;}
+.fz18{font-size: 110% !important;}
+.center>div.ql-editor p{text-align: center;}
+
+ textarea.border-box2::placeholder{padding-top: 2.5px;} 
+ textarea.border-txt::placeholder{padding-top: 1px;} 
+
+ 
+
+button, a {
+    color: #000; /* 검정색으로 명시적으로 설정 */
+    -webkit-appearance: none; /* iOS의 기본 스타일링을 제거 */
+    -moz-appearance: none;
+    appearance: none;
+    text-decoration: none; /* 링크의 경우, 밑줄 제거 */
+}
+
+
